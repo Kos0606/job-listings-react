@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.job-container {
+  background-color: rgb(253, 252, 252);
+  width: 90%;
+}
+
+header {
+  background-color: rgb(82, 150, 150);
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+}
+span {
+  width: 100%;
+  font-size: larger;
+}
+.new-featured {
+  background-color: rgb(6, 78, 78);
+  color: white;
+  border-radius: 30px;
+  font-size: large;
+}
+#myBorder {
+  border-left: 7px solid rgb(6, 122, 122);
+  border-radius: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .job-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .job-container {
+    flex-direction: column;
+  }
+}
